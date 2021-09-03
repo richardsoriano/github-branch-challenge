@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  @apply bg-black-700;
+}
+
+.dropdown-caret {
+  border-bottom: 0 solid transparent;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top-style: solid;
+  border-top-width: 4px;
+  content: '';
+  display: inline-block;
+  height: 0;
+  width: 0;
+  vertical-align: middle;
+}
