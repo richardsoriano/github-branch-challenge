@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  @apply bg-black-700;
+  @apply bg-black-600 text-white;
 }
 
 .dropdown-caret {
@@ -12,7 +12,7 @@
   border-right: 4px solid transparent;
   border-top-style: solid;
   border-top-width: 4px;
-  content: '';
+  content: "";
   display: inline-block;
   height: 0;
   width: 0;
