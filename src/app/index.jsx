@@ -1,7 +1,6 @@
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
-import Homepage from '../pages/'
-
-import './globals.css'
+import { BrowserRouter, Switch, Route } from "react-router-dom";
+import Homepage from "../pages/";
+import "./globals.css";
 
 export default function App() {
   return (
@@ -12,5 +11,5 @@ export default function App() {
         </Route>
       </Switch>
     </BrowserRouter>
-  )
+  );
 }
